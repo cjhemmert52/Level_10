@@ -1,1 +1,5 @@
-print('Level 10 homework')
+import pandas as pd
+
+data = pd.read_csv("cfb.csv")
+
+print(data)
